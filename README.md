@@ -12,3 +12,7 @@ Kalmanlstm_newmodel:
 Here we train observation and trajectory models along with kalman gain for every batch with the deeplearnining model and predict it from Neural layer for every timestep. Then use this to calculate current states. This approach ensures that the predicted states are more finely tuned with the evolution matrices, capitalizing on deep learning's strengths to optimize these parameters and improve the model's overall accuracy and performance.
 
 Dataset:
+This is neural+states dataset of monkey's finger movement.
+First 95 columns : Neural Data
+Last 4 columns: States.[X position,Y position,X velocity,Y velocity]
+Source: Chestek Lab-University of Michigan, Ann Arbor
